@@ -1,12 +1,12 @@
 # Zadanie-oxido
 
-### This repository contains a Python application that utilizes the OpenAI API to convert text articles into structured HTML with embedded guidelines for image placeholders and captions. The output HTML file retains the original article text while formatting it with HTML tags for readability and future image placement.
+### This repository contains a Python app that uses the OpenAI API to transform text articles into well-structured HTML. The app formats the articles to make them more readable, adding placeholders for images and captions where needed. This makes it easy to maintain the original content while preparing the layout for future visuals.
 
 ## Features
 
 - Reads a plain text article from a specified file.
 - Uses OpenAI's API to convert the article content into HTML with a structured format.
-- Adds placeholders for images (<img src="image_placeholder.jpg" alt="future prompt to generate image">) and captions (<figcaption>) where images might be added.
+- Adds placeholders for images &lt;img src="image_placeholder.jpg" alt="future prompt to generate image"&gt;
 - Saves the generated HTML into an output file for easy viewing.
 
 # Setup Instructions
